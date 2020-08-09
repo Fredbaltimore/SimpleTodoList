@@ -32,15 +32,15 @@ function inputLength() {
 }
 
 function createListElement() {
-	let deletebtn = document.createElement("button");
-	deletebtn.innerHTML = "Delete";
+	let deleteButton = document.createElement("button");
+	deleteButton.innerHTML = "Delete";
 	
 
 	let li = document.createElement("li");
 	li.appendChild(document.createTextNode(input.value));
 	li.innerHTML = li.innerHTML + " ";
-	li.appendChild(deletebtn);
-	deletebtn.onclick = removeParent;
+	li.appendChild(deleteButton);
+	deleteButton.onclick = removeParent;
 	ul.appendChild(li);
 	input.value = "";
 }
