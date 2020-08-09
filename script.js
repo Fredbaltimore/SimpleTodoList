@@ -1,20 +1,12 @@
 let button = document.getElementById("enter");
 let input = document.getElementById("userinput");
 let ul = document.querySelector("ul");
-let deletedItem = document.getElementsByClassName("delete");
-let listItem = ul.getElementsByTagName("li");
-
 
 
 function removeParent(evt){
 	evt.target.removeEventListener("click", removeParent, false);
 	evt.target.parentNode.remove();
 }
-
-// for (let i = 0; i < deletedItem.length; i++){
-// 	deletedItem[i].addEventListener("click", removeParent);
-	
-// }
 
 function getEventTarget(e){
 	e = e || window.event;
