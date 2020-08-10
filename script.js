@@ -1,4 +1,4 @@
-let ul = document.querySelector("ul");
+let ul = document.getElementById("todos");
 let button = document.getElementById("enter");
 let userInput = document.getElementById("userinput");
 
