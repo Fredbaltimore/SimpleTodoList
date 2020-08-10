@@ -15,7 +15,7 @@ html, body{
   flex-wrap: wrap;
   align-items: flex-start;
   /* flex: 1; */
-  background: url('/pexels-breakingpic-3299.jpg') no-repeat center center fixed;
+  background: url('pexels-breakingpic-3299.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 30vh;
   width: 100%;
