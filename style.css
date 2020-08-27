@@ -1,11 +1,13 @@
-html, body{
+html,
+body {
   height: 100%;
-  margin: 0; 
-  
+  margin: 0;
 }
 
 @media only screen and (min-width: 768px) {
-  mainNav { flex-direction: row; }
+  mainNav {
+    flex-direction: row;
+  }
 }
 
 #mainNav {
@@ -15,17 +17,16 @@ html, body{
   flex-wrap: wrap;
   align-items: flex-start;
   /* flex: 1; */
-  background: url('pexels-breakingpic-3299.jpg') no-repeat center center fixed;
+  background: url("pexels-breakingpic-3299.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 30vh;
   width: 100%;
 }
-#mainNav a{
+#mainNav a {
   margin: 0.19em;
   padding: 0.21em;
   text-decoration: none;
   color: #fff;
-
 }
 
 #mainHeader {
@@ -33,31 +34,26 @@ html, body{
   background-color: rgb(127, 172, 240);
   display: flex;
   align-items: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
 }
-  #first {
-    color: rgb(12, 0, 80);
-    font-style: bold;
-  }
-  #enter {
-    border-radius: 10%;
-    background-color: darkblue;
-    color: white;
-  
-  }
-  #mainNav a:hover {
-    background-color: lavenderblush;
-    color: royalblue;  
-  }
-  #firstWordh1 {
-    color: rgb(209, 209, 5);
-  }
-  /* .pencil {
-    background: transparent;
-    margin-left: 0;
-  } */
+#first {
+  color: rgb(12, 0, 80);
+  font-style: bold;
+}
+#enter {
+  border-radius: 10%;
+  background-color: darkblue;
+  color: white;
+}
+#mainNav a:hover {
+  background-color: lavenderblush;
+  color: royalblue;
+}
+#firstWordh1 {
+  color: rgb(209, 209, 5);
+}
 
-  .done {
-    text-decoration: line-through;
-  }
+.done {
+  text-decoration: line-through;
+}
